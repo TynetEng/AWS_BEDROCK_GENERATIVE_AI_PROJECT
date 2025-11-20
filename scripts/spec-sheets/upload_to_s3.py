@@ -29,7 +29,7 @@ def upload_files_to_s3(folder_path, bucket_name, prefix=""):
 
 if __name__ == "__main__":
     # Folder path
-    folder_path = "scripts/spec-sheets"
+    folder_path = r"spec-sheets"
 
     
     # S3 bucket name
